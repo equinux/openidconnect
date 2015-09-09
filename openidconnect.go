@@ -11,7 +11,8 @@ import (
 
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/internal"
+
+	"github.com/equinux/openidconnect/internal"
 )
 
 // Config for OpenID Connect with added public key
